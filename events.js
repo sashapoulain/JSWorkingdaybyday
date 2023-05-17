@@ -1,3 +1,9 @@
+document.addEventListener('DOMContentLoaded', () => {
+        console.log('yüklendi');
+    })
+    //domcontentloaded eventi sayfa yüklenince çalışır
+
+
 const inpt1 = document.getElementById('form1');
 const inpt2 = document.getElementById('form2');
 
