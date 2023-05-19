@@ -22,7 +22,9 @@ function run3(e) {
 }
 
 
-//copy eventi ise kopyaladığın bir şey olduğunda çalışır
+//copy eventi ise kopyaladığın bir şey olduğunda çalışır ,
+//cut eventi de cut yapıldığında çalışır
+//select eventi de seçim yapıldığında çalışır
 
 form.addEventListener('copy', run4)
 
