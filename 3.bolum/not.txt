@@ -1,0 +1,60 @@
+//ajax için xmlhttprequest den bir obje oluşturursak ajax işlemini gerçekleştirebiliriz
+PART1
+document.querySelector('#btn').addEventListener('click', function() {
+    const xhr = new XMLHttpRequest();
+    //bağlantı açmak için xhr ın open fonk. kullanıcaz bu 3 parametre alır
+    //ilki hangi requesti yapıcaz get,post,put... 
+    //ikincisi hangi dosyadan alıcaz
+    //3.asenkron mu senkron mu true mu false mu yani (true = asenkron)
+    xhr.open('GET', 'text.txt', true)
+        //son olarak requesti gönderiyoruz send ile
+    xhr.send();
+})
+
+
+
+PART2
+
+document.querySelector('#btn').addEventListener('click', function() {
+    const xhr = new XMLHttpRequest();
+
+    xhr.onreadystatechange = function() {
+        if (this.status == 200 & this.readyState == 4) {
+            console.log(this.responseText);
+        }
+    }
+    xhr.open('GET', 'text.txt', true)
+    xhr.send();
+})
+
+
+
+//not: .onreadystatechange yerine onload veya onprogress de kullanılabilir şöyle..
+document.querySelector('#btn').addEventListener('click', function() {
+    const xhr = new XMLHttpRequest();
+
+    xhr.onload = function() {
+        if (this.status == 200) {
+            console.log(this.responseText);
+        }
+    }
+    xhr.open('GET', 'text.txt', true)
+    xhr.send();
+})
+
+
+
+PART3
+aldığımız text içeriğini html sayfasına yazdırmak için
+document.querySelector('#btn').addEventListener('click', function() {
+    const xhr = new XMLHttpRequest();
+
+    xhr.onload = function() {
+        if (this.status == 200) {
+            // console.log(this.responseText);
+            document.getElementById('ajax').textContent = this.responseText;
+        }
+    }
+    xhr.open('GET', 'text.txt', true)
+    xhr.send();
+})

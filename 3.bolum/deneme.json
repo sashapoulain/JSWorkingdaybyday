@@ -1,0 +1,15 @@
+[{
+        "name": "Şeyma",
+        "age": 30,
+        "maas": 4000
+    }, {
+        "name": "Mert",
+        "age": 28,
+        "maas": 5000
+    },
+    {
+        "name": "Ahmet",
+        "age": 25,
+        "maas": 6000
+    }
+]
