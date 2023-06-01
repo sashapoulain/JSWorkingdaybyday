@@ -1,3 +1,4 @@
+//e.target ile eventi yakalıyoruz
 //e.target sayesinde basılan class ı yakalayıp işlem yaptırabiliriz
 const card = document.querySelector('.card')
 card.addEventListener('click', function(e) {

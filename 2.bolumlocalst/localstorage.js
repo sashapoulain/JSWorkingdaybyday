@@ -1,6 +1,6 @@
-//local storage a kaydedilen her şey string olarak kaydedilir.
-//localstorage.setItem('hareket', 'squat') şeklinde kaydedilir
-//getItem ile varolan verilere bakabiliriz fakat get itema yalnızca anahtar yazarız.
+//1- local storage a kaydedilen her şey string olarak kaydedilir.
+//2- localstorage.setItem('hareket', 'squat') şeklinde kaydedilir
+//3- getItem ile varolan verilere bakabiliriz fakat get itema yalnızca anahtar yazarız.
 //localstorage.getItem('hareket')
 //local st. clear ile temizlenir.
 //localstorage.clear();

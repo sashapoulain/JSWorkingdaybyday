@@ -1,0 +1,1 @@
+spread op. bak ve es6 classlar metodlar falan

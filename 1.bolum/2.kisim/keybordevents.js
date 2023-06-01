@@ -1,4 +1,4 @@
-//keypress sadece harf ve sayıları görür diğer tuşlar görünmez
+//KEYPRESS sadece harf ve sayıları görür diğer tuşlar görünmez
 // document.addEventListener('keypress', run)
 
 function run(e) {
@@ -10,7 +10,7 @@ function run(e) {
 }
 
 
-//keydown bastığımız anda event oluşur tüm tuşları yazdırır
+//KEYDOWN bastığımız anda event oluşur tüm tuşları yazdırır
 
 // document.addEventListener('keydown', run2)
 
@@ -19,7 +19,7 @@ function run(e) {
 // }
 
 
-//keyup tuşu bırakınca event tetiklenir bu da her şeyi gösterir.
+//KEYUP tuşu bırakınca event tetiklenir bu da her şeyi gösterir.
 document.addEventListener('keyup', run3)
 
 function run3(e) {

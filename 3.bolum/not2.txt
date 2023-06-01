@@ -1,0 +1,18 @@
+API nedir?
+application programming interface
+uygulama programlama arayüzü
+ne işe yarar?
+bir uygulamanın bazı fonksiyonlarının başka uygulamalar tarafından kullanılmasını sağlayan bir arayüzdür.
+ara bir katmandır da diyebiliriz
+her uygualama ve program kendi api ını yayınlayablir bunun nedeni biz 
+onu kullanalım diye yani kendini tanıtıyor bir nevi
+tabi her fonksiyonu değil bazı fonksiyonlarını kullanabiliriz,
+ücretli de sunabilirler bunu 
+
+
+eğer apiler olmasaydı biz bunları python veya başka bir dil kullanarak
+sayfasını indirip içinde dolaşacaktık
+scrapping yani
+
+
+

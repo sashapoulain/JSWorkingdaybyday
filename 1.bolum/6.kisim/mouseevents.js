@@ -1,3 +1,5 @@
+//MOUSE EVENTLERİNDEN EN KULLANILABİLİRİ MOUSEENTER VE MOUSELEAVEDİR.
+
 //mousedown = click eventine benziyor mouse a tıklayınca çalışır
 
 const tit = document.querySelector('.title')

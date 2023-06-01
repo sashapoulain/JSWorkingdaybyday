@@ -10,8 +10,6 @@ greet()
 
 
 //daha kısa yukardaki şöyle yazılır
-
-
 function merhaba(isim = 'bilgi yok', yas = 'bilgi yok') {
     console.log(`İsim : ${isim} Yaş: ${yas}`);
 }
@@ -22,13 +20,14 @@ merhaba()
 
 function square(x) {
     return x * x;
-    //returnden sonra kod çalışmaz return kodu bitirir
+    //returnden sonra kod çalışmaz return kodu bitirir.
     console.log('slm');
 }
 
 function cube(x) {
     return x * x * x;
 }
+
 let num = cube(square(2))
 console.log(num);
 
@@ -62,7 +61,6 @@ const database = {
     }
 }
 console.log(database.host);
-
 database.add();
 database.delete(10);
 

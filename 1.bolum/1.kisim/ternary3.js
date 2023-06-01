@@ -1,13 +1,11 @@
-//if ternary op
-
-// const number = 100;
-// console.log(number === 100 ? "sayı 100" : "sayı 100 değil");
+//if ternary operatörü
 
 
+const number = 100;
+console.log(number === 100 ? "sayı 100" : "sayı 100 değil");
 
-//switch case
 
-
+//switch case yapısı
 const num = 5;
 switch (num) {
     case 1:

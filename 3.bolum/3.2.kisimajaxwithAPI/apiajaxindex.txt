@@ -45,6 +45,7 @@ function change() {
         if (this.status) {
             const response = JSON.parse(this.responseText);
             console.log(response.rates.TRY);  //bu number tipinde
+            
         }
     }
     xhr.send();

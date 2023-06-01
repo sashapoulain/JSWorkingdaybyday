@@ -2,7 +2,7 @@ document.getElementById('ajax').addEventListener('click', getEmployees)
 
 function getEmployees() {
     const xhr = new XMLHttpRequest()
-    xhr.open('GET', 'deneme.json', true);
+    xhr.open('GET', 'employee.json', true);
     xhr.onload = function() {
         //tablo seçimi
         const table = document.getElementById('employees')
