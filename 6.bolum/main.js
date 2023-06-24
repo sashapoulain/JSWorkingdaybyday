@@ -3,6 +3,7 @@
 //     tellAge: function() {
 //         console.log(this.age);
 //     }
+
 // }
 // person.tellAge();
 
@@ -22,21 +23,22 @@
 // }
 // person.tellAge();
 
+//burada bind ile this 'in window objesini göstermesini sağlıyoruz.
 
 //bind yerine arrow function yazarsak da direkt this in window objesini göstermesini sağlarız
 
 
 
-const person = {
-    age: 30,
-    tellAge: () => {
-            console.log(this);
-            console.log(this.age);
-            //this = window
-        }
-        //this = window
-}
-person.tellAge();
+// const person = {
+//     age: 30,
+//     tellAge: () => {
+//             console.log(this);
+//             console.log(this.age);
+//             //this = window
+//         }
+//         //this = window
+// }
+// person.tellAge();
 
 
-//yani arrow function ve normal functionların böyle bir farkı var
+//o zaman yani arrow function ve normal functionların böyle bir farkı var
